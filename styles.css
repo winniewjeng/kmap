@@ -1,5 +1,6 @@
 * {
-    color: blue;
+    font-family: 'Crimson Text', serif;
+    color: black;
     /* padding-top: 20px; */
     padding-left: 10%;
     padding-right: 10%; 
@@ -7,10 +8,15 @@
 }
 
 h1 {
+    font-family: 'Lobster', cursive;
     padding-top: 50px;
     text-align: center;
-    color: blue;
+    color: rgb(102,102,255);
 } 
+
+#var-3 {
+    padding-top: 30px;
+}
 
 .c {
     text-align: right;
@@ -30,4 +36,10 @@ h1 {
 
 #label {
     background-color: white;
+}
+
+#submit {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
 }

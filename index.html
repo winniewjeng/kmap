@@ -9,12 +9,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Lobster+Two|Sigmar+One&display=swap" rel="stylesheet">
     <title>Karnaugh Map</title>
 </head>
 
 <body>
-    <h1>Karnaugh Map!</h1>
-    <div id="3var">
+    <h1>Karnaugh Map</h1>
+    <div id="var-3">
         <div class="row">
             <div class="col" id="label">
                 <div class="c">c</div>
@@ -42,6 +43,9 @@
             <div class="col" id="label">10</div>
             <div class="col" id="grid 100" onclick='changeState("100")'></div>
             <div class="col" id="grid 101" onclick='changeState("101")'></div>
+        </div>
+        <div>
+            <button id="submit" onclick=calculate(); this.onclick = null;>Submit</button>
         </div>
     </div>
 
