@@ -1,0 +1,33 @@
+* {
+    color: blue;
+    /* padding-top: 20px; */
+    padding-left: 10%;
+    padding-right: 10%; 
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    text-align: center;
+    color: blue;
+} 
+
+.c {
+    text-align: right;
+    
+}
+.ab {
+    text-align: left;
+}
+
+.col {
+    background-color: orangered;
+    color: black;
+    border-style:solid;
+    border-width:0.5px;
+    height: 60px;
+}
+
+#label {
+    background-color: white;
+}
